@@ -9,7 +9,7 @@ void main(){
     int i, stack[20], top=-1;
 
 
-    printf(" \nEnter a postfix expression\n");
+    printf(" \n Enter a postfix expression\n");
     gets(exp);
 
     i=0;
