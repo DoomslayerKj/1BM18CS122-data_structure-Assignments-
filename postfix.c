@@ -9,7 +9,7 @@ void main(){
     int i, stack[20], top=-1;
 
 
-    printf("Enter the postfix expression\n");
+    printf(" \nEnter a postfix expression\n");
     gets(exp);
 
     i=0;
@@ -52,7 +52,7 @@ void main(){
 
     }
     
-    printf("The result of the Expression is %d", pop(stack, &top));
+    printf("The Expression result is %d", pop(stack, &top));
 }
 
 void push(int s[], int *top, int ele){
