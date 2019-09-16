@@ -32,6 +32,7 @@ void main()
     char *e, x;
     printf("Enter the expression :: ");
     scanf("%s",exp);
+    printf(" \n THe result is \n");
     e = exp;
     while(*e != '\0')
     {
